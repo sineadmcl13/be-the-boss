@@ -6,4 +6,6 @@ The exception being me as this site was created as just a bit of fun and does no
 
 Feel free to fork this repo, replace the contents of the [comments.txt](resources/comments.txt) file with your boss or managers favourite quotes and Be The Boss
 
+Take a look at the [demo](https://sineadmcl13.github.io/be-the-boss/)
+
 ![alt tag](https://sineadmcl13.github.io/be-the-boss/resources/images/the-boss.jpg)
