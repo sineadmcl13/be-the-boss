@@ -1,0 +1,76 @@
+body{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    #commentBlock{
+        max-width: 60%;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #comment{
+        font-weight: bold;
+        font-size: 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    #commentBlock{
+        max-width: 60%;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #comment{
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    #commentBlock{
+        max-width: 50%;
+        text-align: center;
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    #comment{
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    #commentBlock{
+        max-width: 40%;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #comment{
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    #commentBlock{
+        max-width: 40%;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #comment{
+        font-weight: bold;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,7 @@
+# Site settings
+title: smclaughlin
+baseurl: 'https://sineadmcl13.github.io/be-the-boss'
+
+# Build settings
+destination: _site
+exclude: ['Gemfile', 'Gemfile.lock']
