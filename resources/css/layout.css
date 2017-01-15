@@ -1,31 +1,19 @@
 body{
-    background-image: url(../images/background.png);
+    background-image: url(../images/background.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
+@media only screen and (min-width : 0px) and (max-width : 320px) {
+    body{
+        background-image: url(../images/background_sm.png);
+    }
     #commentBlock{
         max-width: 60%;
         text-align: center;
-        margin-left: 25%;
-        margin-top: 10%;
-    }
-    #comment{
-        font-weight: bold;
-        font-size: 10px;
-    }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-    #commentBlock{
-        max-width: 60%;
-        text-align: center;
-        margin-left: 25%;
-        margin-top: 10%;
+        margin-left: 10%;
+        margin-top: 20%;
     }
     #comment{
         font-weight: bold;
@@ -33,8 +21,39 @@ body{
     }
 }
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 321px) and (max-width : 480px) {
+    body{
+        background-image: url(../images/background_sm.png);
+    }
+    #commentBlock{
+        max-width: 65%;
+        text-align: center;
+        margin-left: 15%;
+        margin-top: 25%;
+    }
+    #comment{
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+    body{
+        background-image: url(../images/background_sm.svg);
+    }
+    #commentBlock{
+        max-width: 50%;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+    #comment{
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width : 769px) and (max-width : 992px) {
     #commentBlock{
         max-width: 50%;
         text-align: center;
@@ -43,31 +62,29 @@ body{
     }
     #comment{
         font-weight: bold;
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 993px) {
     #commentBlock{
-        max-width: 40%;
+        max-width: 60%;
         text-align: center;
         margin-left: 25%;
         margin-top: 10%;
     }
     #comment{
         font-weight: bold;
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
-/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     #commentBlock{
         max-width: 40%;
         text-align: center;
-        margin-left: 25%;
-        margin-top: 10%;
+        margin-left: 20%;
+        margin-top: 7%;
     }
     #comment{
         font-weight: bold;
