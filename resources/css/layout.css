@@ -1,93 +1,69 @@
 body{
-    background-image: url(../images/background.svg);
+    background-image: url(../images/background_sm.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 }
 
-@media only screen and (min-width : 0px) and (max-width : 320px) {
-    body{
-        background-image: url(../images/background_sm.png);
-    }
-    #commentBlock{
-        max-width: 60%;
+.commentBlock{
+    max-width: 70%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 25%;
+}
+.comment{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 45px;
+    line-height: normal;
+    margin: 20px 20px 20px 20px;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    .commentBlock{
+        max-width: 70%;
         text-align: center;
         margin-left: 10%;
-        margin-top: 20%;
+        margin-top: 35%;
     }
-    #comment{
+    .comment{
         font-weight: bold;
-        font-size: 12px;
+        font-size: 30px;
     }
 }
 
-@media only screen and (min-width : 321px) and (max-width : 480px) {
+
+@media (min-width: 992px) {
     body{
-        background-image: url(../images/background_sm.png);
+        background-image: url(../images/background.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
-    #commentBlock{
-        max-width: 65%;
-        text-align: center;
-        margin-left: 15%;
-        margin-top: 25%;
-    }
-    #comment{
-        font-weight: bold;
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width : 481px) and (max-width : 768px) {
-    body{
-        background-image: url(../images/background_sm.svg);
-    }
-    #commentBlock{
-        max-width: 50%;
-        text-align: center;
-        margin-left: 10%;
-        margin-top: 20%;
-    }
-    #comment{
-        font-weight: bold;
-        font-size: 16px;
-    }
-}
-
-@media only screen and (min-width : 769px) and (max-width : 992px) {
-    #commentBlock{
-        max-width: 50%;
-        text-align: center;
-        margin-left: 30%;
-        margin-top: 10%;
-    }
-    #comment{
-        font-weight: bold;
-        font-size: 18px;
-    }
-}
-
-@media only screen and (min-width : 993px) {
-    #commentBlock{
+    .commentBlock{
         max-width: 60%;
         text-align: center;
         margin-left: 25%;
-        margin-top: 10%;
+        margin-top: 15%;
     }
-    #comment{
+    .comment{
         font-weight: bold;
-        font-size: 20px;
+        font-size: 30px;
     }
-}
-
-@media only screen and (min-width : 1200px) {
-    #commentBlock{
-        max-width: 40%;
-        text-align: center;
-        margin-left: 25%;
-        margin-top: 7%;
-    }
-    #comment{
-        font-weight: bold;
-        font-size: 20px;
+    .btn-xlarge {
+        padding: 18px 28px;
+        font-size: 25px;
+        line-height: normal;
+        margin: 20px 20px 20px 20px;
+        -webkit-border-radius: 8px;
+           -moz-border-radius: 8px;
+                border-radius: 8px;
     }
 }
